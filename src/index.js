@@ -5,7 +5,7 @@ import ReactDOM from "react-dom";
 
 //Create a react component
 const App =() => {
-    return <div>Hello Good Morning.!! Welcome.!!.?</div>
+    return <div>Hello Good Morning.!!</div>
 }
 
 
