@@ -2,10 +2,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-
 //Create a react component
 const App =() => {
-    return <div>Hello Good Morning.!!</div>
+    const buttonText={text:"click me"};
+    return (
+    <div>
+    <label className="label" for ="name">
+        Enter name
+        </label>
+    <input id="name" type="text"/>
+    <button style={{backgroundColor:'blue',color:'White'}}>
+        {buttonText.text}
+    </button>
+    </div>
+    );
 }
 
 
